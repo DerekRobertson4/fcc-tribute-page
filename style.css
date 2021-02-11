@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+html {
+    font-size: 10px;
+    background-color: white;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(190, 190, 190);
+    margin: 1rem 15rem;
+    border-radius: .8rem;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+main {
+    margin: 1rem;
+    padding: 1.5rem;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: .1rem .1rem black;
+    font-size: 5.5rem;
+    font-weight: bold;
+    font-family: 'Rock Salt', cursive, sans-serif;
+    margin: 0;
+
+}
+
+#subtitle {
+    font-size: 2.5rem;
+    font-family: 'Rock Salt', cursive, sans-serif;
+    font-style: italic;
+    margin: 0;
+}
+
+#img-div {
+    background-color: rgb(230, 230, 230);
+    padding: 2rem;
+}
+
+#image {
+    max-width: 60%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-caption {
+    font-size: 1.5rem;
+    font-family: 'Rock Salt', cursive;
+    margin: 1rem 25rem 0;
+}
+
+.obituary p {
+    font-size: 1.6rem;
+    line-height: 100%;
+    text-align: left;
+    line-height: 150%;
+    margin: 0 2rem 2rem 2rem;
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 2rem;
+}
+
+#obituary-title {
+   margin: 2.5rem 0 0 0;
+   font-size: 5rem;
+}
+
+#obituary-subtitle {
+    text-align: center;
+    font-style: italic;
+    margin: 0 0 2rem 0;
+    padding: 0;
+    background-color: rgb(190, 190, 190);
+    font-style: italic;
+
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+.links a {
+    margin: 0rem 0 1rem;
+}
+
+.links p {
+    font-size: 2rem;
+    margin: 1rem;
+}
